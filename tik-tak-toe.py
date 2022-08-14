@@ -13,7 +13,7 @@ def draw_board():
 
 def take_input(player):
     while True:
-        value = input('Введите число' + player)
+        value = input('Введите число ' + player)
         if not (value in '123456789'):
             print('ERROR.Введите правильное число')
             continue
